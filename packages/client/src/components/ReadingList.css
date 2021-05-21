@@ -1,0 +1,33 @@
+.reading-list-container {
+  width: 60vw;
+  min-width: 600px;
+  background-color: #ffffff;
+  padding: 30px 40px;
+}
+
+.reading-list-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.reading-list-divider {
+  height: 2px;
+  background-color: #ccc;
+  flex: 1 1 auto;
+  margin: 0 20px;
+}
+.reading-list-title {
+  font-size: 1.4em;
+}
+
+.reading-list-read-together {
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+.reading-list-read-together:hover {
+  cursor: pointer;
+}

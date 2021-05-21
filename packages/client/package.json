@@ -1,0 +1,37 @@
+{
+	"name": "client",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"build": "react-scripts build",
+		"start": "PORT=3001 react-scripts start"
+	},
+	"dependencies": {
+		"date-fns": "^2.14.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-icons": "^3.10.0",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "3.4.1",
+		"react-spinkit": "^3.0.0",
+		"react-tooltip": "^4.2.7",
+		"screenfull": "^5.0.2",
+		"uuid": "^8.2.0"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"proxy": "http://localhost:3000"
+}

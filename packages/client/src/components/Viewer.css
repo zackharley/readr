@@ -1,0 +1,36 @@
+.viewer-container {
+    width: 60vw;
+    min-width: 600px;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    margin-bottom: 60px;
+}
+
+.viewer-container img {
+    width: 100%;
+}
+
+.viewer-subtitle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.viewer-metadata-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.viewer-metadata-container > p {
+    margin: 0;
+}
+
+.viewer-metadata-container > span {
+    margin: 0 14px;
+}
+
+.viewer-metadata-link {
+    color: #777777;
+}

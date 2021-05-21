@@ -1,0 +1,27 @@
+{
+  "name": "Readr",
+  "version": "1.0",
+  "description": "A better reading experience",
+  "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_title": "Add current page to reading list",
+    "default_icon": {
+      "16": "images/bookmark-16.png",
+      "32": "images/bookmark-32.png",
+      "64": "images/bookmark-64.png",
+      "128": "images/bookmark-128.png"
+    }
+  },
+  "icons": {
+    "16": "images/bookmark-16.png",
+    "32": "images/bookmark-32.png",
+    "64": "images/bookmark-64.png",
+    "128": "images/bookmark-128.png"
+  },
+  "manifest_version": 2
+}

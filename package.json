@@ -1,0 +1,16 @@
+{
+  "name": "batch-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "postinstall": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "prettier": "^2.0.5"
+  },
+  "author": "",
+  "license": "MIT"
+}
